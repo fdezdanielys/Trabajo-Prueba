@@ -57,7 +57,6 @@
             this.btnempleados = new System.Windows.Forms.Button();
             this.btnclientes = new System.Windows.Forms.Button();
             this.panelfondo = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.panelizq.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -67,7 +66,6 @@
             // panelizq
             // 
             this.panelizq.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.panelizq.Controls.Add(this.button1);
             this.panelizq.Controls.Add(this.btnlogin);
             this.panelizq.Controls.Add(this.btnlogo);
             this.panelizq.Controls.Add(this.btnempleado);
@@ -480,22 +478,6 @@
             this.panelfondo.TabIndex = 15;
             this.panelfondo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelfondo_Paint);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Image = global::_26_1_23.Properties.Resources.almacen__2_;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(2, 418);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(173, 53);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Prueba";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -549,7 +531,6 @@
         private System.Windows.Forms.Button btnempleados;
         private System.Windows.Forms.Button btnclientes;
         private System.Windows.Forms.Panel panelfondo;
-        private System.Windows.Forms.Button button1;
     }
 }
 
