@@ -126,7 +126,7 @@
             this.btnempleado.Name = "btnempleado";
             this.btnempleado.Size = new System.Drawing.Size(173, 53);
             this.btnempleado.TabIndex = 6;
-            this.btnempleado.Text = "    Empleados";
+            this.btnempleado.Text = "    Usuarios";
             this.btnempleado.UseVisualStyleBackColor = false;
             // 
             // btnalmacen
@@ -445,7 +445,7 @@
             this.btnempleados.Name = "btnempleados";
             this.btnempleados.Size = new System.Drawing.Size(153, 128);
             this.btnempleados.TabIndex = 10;
-            this.btnempleados.Text = "Empleados";
+            this.btnempleados.Text = "Usuarios";
             this.btnempleados.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnempleados.UseVisualStyleBackColor = false;
             this.btnempleados.Click += new System.EventHandler(this.btnempleados_Click);
