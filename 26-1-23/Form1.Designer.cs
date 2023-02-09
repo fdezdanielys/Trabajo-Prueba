@@ -29,43 +29,45 @@
         private void InitializeComponent()
         {
             this.panelizq = new System.Windows.Forms.Panel();
+            this.btnlogin = new System.Windows.Forms.Button();
+            this.btnlogo = new System.Windows.Forms.Button();
+            this.btnempleado = new System.Windows.Forms.Button();
+            this.btnalmacen = new System.Windows.Forms.Button();
+            this.btncliente = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btndcontroles = new System.Windows.Forms.Button();
+            this.bnthackear = new System.Windows.Forms.Button();
+            this.btnreparacion = new System.Windows.Forms.Button();
+            this.btnventa = new System.Windows.Forms.Button();
+            this.btnproducto = new System.Windows.Forms.Button();
+            this.btnfactura = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnstock = new System.Windows.Forms.Button();
-            this.btnventas = new System.Windows.Forms.Button();
-            this.btnfacturas = new System.Windows.Forms.Button();
-            this.btnproductos = new System.Windows.Forms.Button();
             this.btnrayas = new System.Windows.Forms.Button();
             this.btnrestaurar = new System.Windows.Forms.Button();
             this.btnmaximizar = new System.Windows.Forms.Button();
             this.btnminizar = new System.Windows.Forms.Button();
             this.btncerrar = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
-            this.btnlogin = new System.Windows.Forms.Button();
-            this.btnlogo = new System.Windows.Forms.Button();
-            this.btnempleado = new System.Windows.Forms.Button();
-            this.btnalmacen = new System.Windows.Forms.Button();
-            this.btncliente = new System.Windows.Forms.Button();
-            this.btnventa = new System.Windows.Forms.Button();
-            this.btnproducto = new System.Windows.Forms.Button();
-            this.btnfactura = new System.Windows.Forms.Button();
-            this.btnreparacion = new System.Windows.Forms.Button();
-            this.bnthackear = new System.Windows.Forms.Button();
-            this.btndcontroles = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnstock = new System.Windows.Forms.Button();
+            this.btnventas = new System.Windows.Forms.Button();
+            this.btnfacturas = new System.Windows.Forms.Button();
+            this.btnproductos = new System.Windows.Forms.Button();
             this.btnhackearr = new System.Windows.Forms.Button();
             this.btnreparar = new System.Windows.Forms.Button();
             this.btnempleados = new System.Windows.Forms.Button();
             this.btnclientes = new System.Windows.Forms.Button();
             this.panelfondo = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panelizq.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panelfondo.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelizq
             // 
             this.panelizq.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.panelizq.Controls.Add(this.button1);
             this.panelizq.Controls.Add(this.btnlogin);
             this.panelizq.Controls.Add(this.btnlogo);
             this.panelizq.Controls.Add(this.btnempleado);
@@ -80,159 +82,6 @@
             this.panelizq.Name = "panelizq";
             this.panelizq.Size = new System.Drawing.Size(177, 537);
             this.panelizq.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Cornsilk;
-            this.panel2.Controls.Add(this.btnrayas);
-            this.panel2.Controls.Add(this.btnrestaurar);
-            this.panel2.Controls.Add(this.btnmaximizar);
-            this.panel2.Controls.Add(this.btnminizar);
-            this.panel2.Controls.Add(this.btncerrar);
-            this.panel2.Controls.Add(this.label18);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(177, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(812, 52);
-            this.panel2.TabIndex = 1;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // btnstock
-            // 
-            this.btnstock.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnstock.FlatAppearance.BorderSize = 0;
-            this.btnstock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnstock.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnstock.Image = global::_26_1_23.Properties.Resources.almacen;
-            this.btnstock.Location = new System.Drawing.Point(612, 397);
-            this.btnstock.Name = "btnstock";
-            this.btnstock.Size = new System.Drawing.Size(153, 128);
-            this.btnstock.TabIndex = 11;
-            this.btnstock.Text = "Almacen";
-            this.btnstock.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnstock.UseVisualStyleBackColor = false;
-            this.btnstock.Click += new System.EventHandler(this.btnstock_Click);
-            // 
-            // btnventas
-            // 
-            this.btnventas.BackColor = System.Drawing.Color.Tan;
-            this.btnventas.FlatAppearance.BorderSize = 0;
-            this.btnventas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnventas.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnventas.Image = global::_26_1_23.Properties.Resources.compras__4_1;
-            this.btnventas.Location = new System.Drawing.Point(406, 397);
-            this.btnventas.Name = "btnventas";
-            this.btnventas.Size = new System.Drawing.Size(153, 128);
-            this.btnventas.TabIndex = 8;
-            this.btnventas.Text = "Ventas";
-            this.btnventas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnventas.UseVisualStyleBackColor = false;
-            this.btnventas.Click += new System.EventHandler(this.btnventas_Click);
-            // 
-            // btnfacturas
-            // 
-            this.btnfacturas.BackColor = System.Drawing.Color.Silver;
-            this.btnfacturas.FlatAppearance.BorderSize = 0;
-            this.btnfacturas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnfacturas.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnfacturas.Image = global::_26_1_23.Properties.Resources.factura__1_;
-            this.btnfacturas.Location = new System.Drawing.Point(406, 81);
-            this.btnfacturas.Name = "btnfacturas";
-            this.btnfacturas.Size = new System.Drawing.Size(153, 128);
-            this.btnfacturas.TabIndex = 5;
-            this.btnfacturas.Text = "Factura";
-            this.btnfacturas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnfacturas.UseVisualStyleBackColor = false;
-            this.btnfacturas.Click += new System.EventHandler(this.btnfacturas_Click);
-            // 
-            // btnproductos
-            // 
-            this.btnproductos.BackColor = System.Drawing.Color.NavajoWhite;
-            this.btnproductos.FlatAppearance.BorderSize = 0;
-            this.btnproductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnproductos.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnproductos.Image = global::_26_1_23.Properties.Resources.paquete__1_;
-            this.btnproductos.Location = new System.Drawing.Point(204, 81);
-            this.btnproductos.Name = "btnproductos";
-            this.btnproductos.Size = new System.Drawing.Size(153, 124);
-            this.btnproductos.TabIndex = 4;
-            this.btnproductos.Text = "Productos";
-            this.btnproductos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnproductos.UseVisualStyleBackColor = false;
-            this.btnproductos.Click += new System.EventHandler(this.btnproductos_Click);
-            // 
-            // btnrayas
-            // 
-            this.btnrayas.FlatAppearance.BorderSize = 0;
-            this.btnrayas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnrayas.Image = global::_26_1_23.Properties.Resources.menu1;
-            this.btnrayas.Location = new System.Drawing.Point(1, 12);
-            this.btnrayas.Name = "btnrayas";
-            this.btnrayas.Size = new System.Drawing.Size(34, 31);
-            this.btnrayas.TabIndex = 49;
-            this.btnrayas.UseVisualStyleBackColor = true;
-            this.btnrayas.Click += new System.EventHandler(this.btnrayas_Click);
-            // 
-            // btnrestaurar
-            // 
-            this.btnrestaurar.FlatAppearance.BorderSize = 0;
-            this.btnrestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnrestaurar.Image = global::_26_1_23.Properties.Resources.minimizar;
-            this.btnrestaurar.Location = new System.Drawing.Point(720, 3);
-            this.btnrestaurar.Name = "btnrestaurar";
-            this.btnrestaurar.Size = new System.Drawing.Size(30, 31);
-            this.btnrestaurar.TabIndex = 48;
-            this.btnrestaurar.UseVisualStyleBackColor = true;
-            this.btnrestaurar.Click += new System.EventHandler(this.btnrestaurar_Click);
-            // 
-            // btnmaximizar
-            // 
-            this.btnmaximizar.FlatAppearance.BorderSize = 0;
-            this.btnmaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmaximizar.Image = global::_26_1_23.Properties.Resources.maximizar__1_;
-            this.btnmaximizar.Location = new System.Drawing.Point(748, 0);
-            this.btnmaximizar.Name = "btnmaximizar";
-            this.btnmaximizar.Size = new System.Drawing.Size(33, 31);
-            this.btnmaximizar.TabIndex = 47;
-            this.btnmaximizar.UseVisualStyleBackColor = true;
-            this.btnmaximizar.Click += new System.EventHandler(this.btnmaximizar_Click);
-            // 
-            // btnminizar
-            // 
-            this.btnminizar.FlatAppearance.BorderSize = 0;
-            this.btnminizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnminizar.Image = global::_26_1_23.Properties.Resources.borrar;
-            this.btnminizar.Location = new System.Drawing.Point(689, 0);
-            this.btnminizar.Name = "btnminizar";
-            this.btnminizar.Size = new System.Drawing.Size(30, 31);
-            this.btnminizar.TabIndex = 46;
-            this.btnminizar.UseVisualStyleBackColor = true;
-            this.btnminizar.Click += new System.EventHandler(this.btnminizar_Click);
-            // 
-            // btncerrar
-            // 
-            this.btncerrar.FlatAppearance.BorderSize = 0;
-            this.btncerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncerrar.Image = global::_26_1_23.Properties.Resources.cerrar;
-            this.btncerrar.Location = new System.Drawing.Point(783, 0);
-            this.btncerrar.Name = "btncerrar";
-            this.btncerrar.Size = new System.Drawing.Size(27, 31);
-            this.btncerrar.TabIndex = 45;
-            this.btncerrar.UseVisualStyleBackColor = true;
-            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
-            // 
-            // label18
-            // 
-            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Image = global::_26_1_23.Properties.Resources.casa__4_;
-            this.label18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label18.Location = new System.Drawing.Point(356, 6);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(103, 40);
-            this.label18.TabIndex = 44;
-            this.label18.Text = "         Menu";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnlogin
             // 
@@ -313,6 +162,43 @@
             this.btncliente.Text = "Clientes";
             this.btncliente.UseVisualStyleBackColor = false;
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.btndcontroles);
+            this.panel3.Controls.Add(this.bnthackear);
+            this.panel3.Controls.Add(this.btnreparacion);
+            this.panel3.Location = new System.Drawing.Point(190, 52);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(788, 485);
+            this.panel3.TabIndex = 2;
+            // 
+            // btndcontroles
+            // 
+            this.btndcontroles.Location = new System.Drawing.Point(290, 322);
+            this.btndcontroles.Name = "btndcontroles";
+            this.btndcontroles.Size = new System.Drawing.Size(108, 104);
+            this.btndcontroles.TabIndex = 2;
+            this.btndcontroles.Text = "Controles";
+            this.btndcontroles.UseVisualStyleBackColor = true;
+            // 
+            // bnthackear
+            // 
+            this.bnthackear.Location = new System.Drawing.Point(162, 322);
+            this.bnthackear.Name = "bnthackear";
+            this.bnthackear.Size = new System.Drawing.Size(108, 104);
+            this.bnthackear.TabIndex = 1;
+            this.bnthackear.Text = "Hackear";
+            this.bnthackear.UseVisualStyleBackColor = true;
+            // 
+            // btnreparacion
+            // 
+            this.btnreparacion.Location = new System.Drawing.Point(31, 322);
+            this.btnreparacion.Name = "btnreparacion";
+            this.btnreparacion.Size = new System.Drawing.Size(108, 104);
+            this.btnreparacion.TabIndex = 0;
+            this.btnreparacion.Text = "Reparacion";
+            this.btnreparacion.UseVisualStyleBackColor = true;
+            // 
             // btnventa
             // 
             this.btnventa.BackColor = System.Drawing.Color.LightSeaGreen;
@@ -363,42 +249,158 @@
             this.btnfactura.Text = "Factura";
             this.btnfactura.UseVisualStyleBackColor = false;
             // 
-            // btnreparacion
+            // panel2
             // 
-            this.btnreparacion.Location = new System.Drawing.Point(31, 322);
-            this.btnreparacion.Name = "btnreparacion";
-            this.btnreparacion.Size = new System.Drawing.Size(108, 104);
-            this.btnreparacion.TabIndex = 0;
-            this.btnreparacion.Text = "Reparacion";
-            this.btnreparacion.UseVisualStyleBackColor = true;
+            this.panel2.BackColor = System.Drawing.Color.Cornsilk;
+            this.panel2.Controls.Add(this.btnrayas);
+            this.panel2.Controls.Add(this.btnrestaurar);
+            this.panel2.Controls.Add(this.btnmaximizar);
+            this.panel2.Controls.Add(this.btnminizar);
+            this.panel2.Controls.Add(this.btncerrar);
+            this.panel2.Controls.Add(this.label18);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(177, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(812, 52);
+            this.panel2.TabIndex = 1;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // bnthackear
+            // btnrayas
             // 
-            this.bnthackear.Location = new System.Drawing.Point(162, 322);
-            this.bnthackear.Name = "bnthackear";
-            this.bnthackear.Size = new System.Drawing.Size(108, 104);
-            this.bnthackear.TabIndex = 1;
-            this.bnthackear.Text = "Hackear";
-            this.bnthackear.UseVisualStyleBackColor = true;
+            this.btnrayas.FlatAppearance.BorderSize = 0;
+            this.btnrayas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnrayas.Image = global::_26_1_23.Properties.Resources.menu1;
+            this.btnrayas.Location = new System.Drawing.Point(1, 12);
+            this.btnrayas.Name = "btnrayas";
+            this.btnrayas.Size = new System.Drawing.Size(34, 31);
+            this.btnrayas.TabIndex = 49;
+            this.btnrayas.UseVisualStyleBackColor = true;
+            this.btnrayas.Click += new System.EventHandler(this.btnrayas_Click);
             // 
-            // btndcontroles
+            // btnrestaurar
             // 
-            this.btndcontroles.Location = new System.Drawing.Point(290, 322);
-            this.btndcontroles.Name = "btndcontroles";
-            this.btndcontroles.Size = new System.Drawing.Size(108, 104);
-            this.btndcontroles.TabIndex = 2;
-            this.btndcontroles.Text = "Controles";
-            this.btndcontroles.UseVisualStyleBackColor = true;
+            this.btnrestaurar.FlatAppearance.BorderSize = 0;
+            this.btnrestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnrestaurar.Image = global::_26_1_23.Properties.Resources.minimizar;
+            this.btnrestaurar.Location = new System.Drawing.Point(720, 3);
+            this.btnrestaurar.Name = "btnrestaurar";
+            this.btnrestaurar.Size = new System.Drawing.Size(30, 31);
+            this.btnrestaurar.TabIndex = 48;
+            this.btnrestaurar.UseVisualStyleBackColor = true;
+            this.btnrestaurar.Click += new System.EventHandler(this.btnrestaurar_Click);
             // 
-            // panel3
+            // btnmaximizar
             // 
-            this.panel3.Controls.Add(this.btndcontroles);
-            this.panel3.Controls.Add(this.bnthackear);
-            this.panel3.Controls.Add(this.btnreparacion);
-            this.panel3.Location = new System.Drawing.Point(190, 52);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(788, 485);
-            this.panel3.TabIndex = 2;
+            this.btnmaximizar.FlatAppearance.BorderSize = 0;
+            this.btnmaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmaximizar.Image = global::_26_1_23.Properties.Resources.maximizar__1_;
+            this.btnmaximizar.Location = new System.Drawing.Point(748, 0);
+            this.btnmaximizar.Name = "btnmaximizar";
+            this.btnmaximizar.Size = new System.Drawing.Size(33, 31);
+            this.btnmaximizar.TabIndex = 47;
+            this.btnmaximizar.UseVisualStyleBackColor = true;
+            this.btnmaximizar.Click += new System.EventHandler(this.btnmaximizar_Click);
+            // 
+            // btnminizar
+            // 
+            this.btnminizar.FlatAppearance.BorderSize = 0;
+            this.btnminizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnminizar.Image = global::_26_1_23.Properties.Resources.borrar;
+            this.btnminizar.Location = new System.Drawing.Point(689, 0);
+            this.btnminizar.Name = "btnminizar";
+            this.btnminizar.Size = new System.Drawing.Size(30, 31);
+            this.btnminizar.TabIndex = 46;
+            this.btnminizar.UseVisualStyleBackColor = true;
+            this.btnminizar.Click += new System.EventHandler(this.btnminizar_Click);
+            // 
+            // btncerrar
+            // 
+            this.btncerrar.FlatAppearance.BorderSize = 0;
+            this.btncerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncerrar.Image = global::_26_1_23.Properties.Resources.cerrar;
+            this.btncerrar.Location = new System.Drawing.Point(783, 0);
+            this.btncerrar.Name = "btncerrar";
+            this.btncerrar.Size = new System.Drawing.Size(27, 31);
+            this.btncerrar.TabIndex = 45;
+            this.btncerrar.UseVisualStyleBackColor = true;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
+            // 
+            // label18
+            // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Image = global::_26_1_23.Properties.Resources.casa__4_;
+            this.label18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label18.Location = new System.Drawing.Point(356, 6);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(103, 40);
+            this.label18.TabIndex = 44;
+            this.label18.Text = "         Menu";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnstock
+            // 
+            this.btnstock.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnstock.FlatAppearance.BorderSize = 0;
+            this.btnstock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnstock.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnstock.Image = global::_26_1_23.Properties.Resources.almacen;
+            this.btnstock.Location = new System.Drawing.Point(612, 397);
+            this.btnstock.Name = "btnstock";
+            this.btnstock.Size = new System.Drawing.Size(153, 128);
+            this.btnstock.TabIndex = 11;
+            this.btnstock.Text = "Almacen";
+            this.btnstock.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnstock.UseVisualStyleBackColor = false;
+            this.btnstock.Click += new System.EventHandler(this.btnstock_Click);
+            // 
+            // btnventas
+            // 
+            this.btnventas.BackColor = System.Drawing.Color.Tan;
+            this.btnventas.FlatAppearance.BorderSize = 0;
+            this.btnventas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnventas.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnventas.Image = global::_26_1_23.Properties.Resources.compras__4_1;
+            this.btnventas.Location = new System.Drawing.Point(406, 397);
+            this.btnventas.Name = "btnventas";
+            this.btnventas.Size = new System.Drawing.Size(153, 128);
+            this.btnventas.TabIndex = 8;
+            this.btnventas.Text = "Ventas";
+            this.btnventas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnventas.UseVisualStyleBackColor = false;
+            this.btnventas.Click += new System.EventHandler(this.btnventas_Click);
+            // 
+            // btnfacturas
+            // 
+            this.btnfacturas.BackColor = System.Drawing.Color.Silver;
+            this.btnfacturas.FlatAppearance.BorderSize = 0;
+            this.btnfacturas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnfacturas.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnfacturas.Image = global::_26_1_23.Properties.Resources.factura__1_;
+            this.btnfacturas.Location = new System.Drawing.Point(406, 81);
+            this.btnfacturas.Name = "btnfacturas";
+            this.btnfacturas.Size = new System.Drawing.Size(153, 128);
+            this.btnfacturas.TabIndex = 5;
+            this.btnfacturas.Text = "Factura";
+            this.btnfacturas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnfacturas.UseVisualStyleBackColor = false;
+            this.btnfacturas.Click += new System.EventHandler(this.btnfacturas_Click);
+            // 
+            // btnproductos
+            // 
+            this.btnproductos.BackColor = System.Drawing.Color.NavajoWhite;
+            this.btnproductos.FlatAppearance.BorderSize = 0;
+            this.btnproductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnproductos.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnproductos.Image = global::_26_1_23.Properties.Resources.paquete__1_;
+            this.btnproductos.Location = new System.Drawing.Point(204, 81);
+            this.btnproductos.Name = "btnproductos";
+            this.btnproductos.Size = new System.Drawing.Size(153, 124);
+            this.btnproductos.TabIndex = 4;
+            this.btnproductos.Text = "Productos";
+            this.btnproductos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnproductos.UseVisualStyleBackColor = false;
+            this.btnproductos.Click += new System.EventHandler(this.btnproductos_Click);
             // 
             // btnhackearr
             // 
@@ -478,6 +480,22 @@
             this.panelfondo.TabIndex = 15;
             this.panelfondo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelfondo_Paint);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Image = global::_26_1_23.Properties.Resources.almacen__2_;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(2, 418);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(173, 53);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Prueba";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -493,8 +511,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.panelizq.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.panelfondo.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -531,6 +549,7 @@
         private System.Windows.Forms.Button btnempleados;
         private System.Windows.Forms.Button btnclientes;
         private System.Windows.Forms.Panel panelfondo;
+        private System.Windows.Forms.Button button1;
     }
 }
 
