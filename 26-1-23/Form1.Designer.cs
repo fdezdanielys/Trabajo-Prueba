@@ -465,6 +465,8 @@
             // 
             // panelfondo
             // 
+            this.panelfondo.Controls.Add(this.btnventas);
+            this.panelfondo.Controls.Add(this.btnstock);
             this.panelfondo.Controls.Add(this.btnclientes);
             this.panelfondo.Controls.Add(this.btnempleados);
             this.panelfondo.Controls.Add(this.btnreparar);
@@ -482,8 +484,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cornsilk;
             this.ClientSize = new System.Drawing.Size(989, 537);
-            this.Controls.Add(this.btnstock);
-            this.Controls.Add(this.btnventas);
             this.Controls.Add(this.btnfacturas);
             this.Controls.Add(this.btnproductos);
             this.Controls.Add(this.panel2);
